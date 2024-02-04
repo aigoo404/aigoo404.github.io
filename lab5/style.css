@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     background-color: #ffffff;
     height: 600px;
 }
@@ -62,9 +62,10 @@ span {
     width: 100%;
     background-color: #016bca;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    height: 20%;
-    position: relative;
+    margin: 0; /* Remove this line */
+    padding: 0; /* Remove this line */
 }
 
 input {
@@ -82,6 +83,8 @@ input {
 
 .button_click {
     margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
 }
 
 .form {
@@ -119,13 +122,24 @@ h2 {
 }
 
 .figma-btn {
-    width: 200px;
-    height: 40px;
-    margin-top: 40px;
-    position: absolute;
-    right: 0;
-    margin-right: 15px;
+    width: 150px;
+    height: 50px;
+    margin-top: 0;
+    position: relative;
+    background-color: #343a40;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 2rem;
 }
+
+.btn-success {
+    width: 150px;
+    height: 50px;
+    background-color: #28a745;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
 a{
     text-decoration: none;
     color: #ffffff;
